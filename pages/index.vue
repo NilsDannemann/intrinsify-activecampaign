@@ -11,7 +11,9 @@ definePageMeta({
 <template>
   <PageWrapper>
     <PageBody>
-      <PageSection> Content </PageSection>
+      <PageSection>
+        Willkommen in Deiner intrinsify Akademie
+      </PageSection>
     </PageBody>
   </PageWrapper>
 </template>

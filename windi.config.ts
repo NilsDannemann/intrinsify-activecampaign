@@ -12,8 +12,21 @@ import TypographyPlugin from 'windicss/plugin/typography'
 import AspectRatioPlugin from 'windicss/plugin/aspect-ratio'
 import FiltersPlugin from 'windicss/plugin/filters'
 
-const MyTheme = {
+const mainTheme = {
   colors: {
+    teal: {
+      DEFAULT: '#52b6d3',
+      '50': '#eef8fb',
+      '100': '#dcf0f6',
+      '200': '#cbe9f2',
+      '300': '#bae2ed',
+      '400': '#63bdd7',
+      '500': '#52b6d3',
+      '600': '#4aa4be',
+      '700': '#397f94',
+      '800': '#295b6a',
+      '900': '#000000',
+    },
     green: {
       DEFAULT: '#3BA676',
       '50': '#B4E4CF',
@@ -63,11 +76,9 @@ export default defineConfig({
         '8xl': '90rem',
       },
       colors: {
-        primary: MyTheme.colors.green,
-        // if want to change primary color to green
-        // primary: MyTheme.colors.blue,
-        green: MyTheme.colors.green,
-        blue: MyTheme.colors.blue,
+        primary: mainTheme.colors.teal,
+        green: mainTheme.colors.green,
+        blue: mainTheme.colors.blue,
         slate: colors.slate,
       },
       fontFamily: {
