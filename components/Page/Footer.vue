@@ -14,7 +14,7 @@ const app = useState<IApp>('app')
           {{ app.name }}
         </div>
         <div class="text-xs text-gray-600 dark:text-gray-400">
-          Über uns - Kontakt - Chat
+          Additional Content
           <div
             class="flex flex-col md:flex-row space-x-2 items-center md:float-right"
           >

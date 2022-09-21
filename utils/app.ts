@@ -12,7 +12,7 @@ export interface IApp {
 export function AppSetup() {
   // declare app information
   const app: IApp = {
-    name: 'intrinsify Nuxt Starter',
+    name: 'intrinsify Akademie',
     author: {
       name: 'intrinsify',
       link: 'https://intrinsify.de',

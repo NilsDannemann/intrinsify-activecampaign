@@ -27,14 +27,12 @@ useHead(() => ({
     <PageBody>
       <PageSection>
 
-        <div class="grid grid-cols-3 gap-3">
-          <div v-for="i in 6" :key="i">
+        <div class="grid grid-cols-4 gap-6">
+          <div v-for="i in 8" :key="i">
             <Card>
               <Card-Title>Beginner Sessions</Card-Title>
-              <Card-Content>
-                <img src="~/assets/images/placeholder-1440x650.jpg">
-                Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, sadipscing elitr, sed eirmod amet.
-              </Card-Content>
+              <Card-Image><img src="~/assets/images/placeholder-1440x650.jpg"></Card-Image>
+              <Card-Content>Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, sadipscing elitr, sed eirmod amet.</Card-Content>
               <Card-Footer>Footer Options</Card-Footer>
             </Card>
           </div>
