@@ -27,8 +27,8 @@ useHead(() => ({
     <PageBody>
       <PageSection>
 
-        <div class="grid grid-cols-4 gap-6">
-          <div v-for="i in 8" :key="i">
+        <div class="grid lg:grid-cols-4 md:grid-cols-3 sm:grid-cols-1 gap-6">
+          <div v-for="i in 10" :key="i">
             <Card>
               <Card-Title>Beginner Sessions</Card-Title>
               <Card-Image><img src="~/assets/images/placeholder-1440x650.jpg"></Card-Image>

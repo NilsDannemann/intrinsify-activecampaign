@@ -29,9 +29,9 @@ pages:
     identity: identity
     full_name: fullName
   about:
-    nav: get started
-    title: get started
-    description: this is a getting started page
+    nav: sessions
+    title: sessions
+    description: these are your sessions
   setting:
     nav: setting
     title: setting
