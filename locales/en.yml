@@ -20,7 +20,7 @@ pages:
     description: this is a post page
   test:
     nav: test
-    title: testing
+    title: test
     description: this is a test page
     counter: counter
     increment: increment
@@ -29,8 +29,8 @@ pages:
     identity: identity
     full_name: fullName
   about:
-    nav: getting started
-    title: getting started
+    nav: get started
+    title: get started
     description: this is a getting started page
   setting:
     nav: setting

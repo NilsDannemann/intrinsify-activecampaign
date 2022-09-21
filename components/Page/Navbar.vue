@@ -36,7 +36,7 @@ const menus = computed((): IMenuItem[] => [
         <Anchor
           class="underline font-bold"
           :text="$t('others.learn_more')"
-          href="https://github.com/viandwi24/nuxt3-awesome-starter"
+          href="https://intrinsify.de"
         />
       </div>
     </template>
@@ -58,7 +58,7 @@ const menus = computed((): IMenuItem[] => [
               <Button
                 v-else-if="item.type === 'button'"
                 :text="item.text"
-                size="xs"
+                size="sm"
                 class="font-extrabold capitalize"
                 :to="item.route ? item.route : undefined"
                 :href="item.href ? item.href : undefined"

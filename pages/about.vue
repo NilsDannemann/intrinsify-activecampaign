@@ -26,18 +26,20 @@ useHead(() => ({
     </PageHeader>
     <PageBody>
       <PageSection>
-        <Tabs>
-          <Tab name="git" title="git">
-            <div class="p-4">
-              <div class="text-2xl">test 1</div>
-            </div>
-          </Tab>
-          <Tab name="npx" title="npx">
-            <div class="p-4">
-              <div class="text-2xl">test 2</div>
-            </div>
-          </Tab>
-        </Tabs>
+
+        <div class="grid grid-cols-3 gap-3">
+          <div v-for="i in 6" :key="i">
+            <Card>
+              <Card-Title>Beginner Sessions</Card-Title>
+              <Card-Content>
+                <img src="~/assets/images/placeholder-1440x650.jpg">
+                Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, sadipscing elitr, sed eirmod amet.
+              </Card-Content>
+              <Card-Footer>Footer Options</Card-Footer>
+            </Card>
+          </div>
+        </div>
+
       </PageSection>
     </PageBody>
   </PageWrapper>
