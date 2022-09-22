@@ -24,7 +24,7 @@ const styles = reactive<{
 }>({
   primary: '',
   success:
-    'dark:from-green-500/50 via-gray-200 to-gray-200 dark:via-slate-800 dark:to-slate-800',
+    'dark:from-primary-500/50 via-gray-200 to-gray-200 dark:via-slate-800 dark:to-slate-800',
   warning:
     'dark:from-yellow-500/50 via-gray-200 to-gray-200 dark:via-slate-800 dark:to-slate-800',
   danger:
@@ -34,7 +34,7 @@ const textStyles = reactive<{
   [key: string]: string
 }>({
   primary: 'text-white',
-  success: 'text-green-500',
+  success: 'text-primary-500',
   warning: 'text-orange-500',
   danger: 'text-red-500',
 })

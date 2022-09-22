@@ -38,7 +38,7 @@ const randomToken = () => {
 }
 
 // state
-const username = ref('viandwi24')
+const username = ref('intrinsify Akademie')
 const id = ref(randomToken())
 const enableSpamProtection = ref(false)
 const enableDirList = ref(false)
@@ -71,7 +71,7 @@ const validate = async () => {
     <PageSection class="mb-0">
       <Alert
         type="success"
-        title="This is a page for testing purposes"
+        title="This is a sample Settings page"
         text="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
         class="mb-6"
       />

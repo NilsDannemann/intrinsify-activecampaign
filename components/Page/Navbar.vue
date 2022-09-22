@@ -73,8 +73,8 @@ const menus = computed((): IMenuItem[] => [
           <ThemeSwitcher />
           <Anchor
             class="hover:no-underline hover:text-slate-900 hover:dark:text-white text-lg flex self-center items-center"
-            href="https://github.com/viandwi24/nuxt3-awesome-starter"
-            title="Github"
+            href="https://intrinsify.de"
+            title="Website"
           >
             <IconMdi:github-face />
           </Anchor>
@@ -129,8 +129,8 @@ const menus = computed((): IMenuItem[] => [
         </ActionSheetBody>
         <Button
           type="secondary"
-          title="Github"
-          href="https://github.com/viandwi24/nuxt3-awesome-starter"
+          title="Website"
+          href="https://intrinsify.de"
         >
           <IconMdi:github-face />
           <span class="ml-1">Github</span>
