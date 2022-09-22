@@ -1,4 +1,4 @@
-# Tools used
+# Tools
 
 - Tailwind CSS v3 with Windicss
 - Headless UI
@@ -12,6 +12,7 @@
 Starter-Template:
 https://github.com/viandwi24/nuxt3-awesome-starter
 
+# Start Project
 Start with yarn as package manager
 - Install dependencies "yarn install"
 - Run "yarn dev" to start development server
