@@ -11,3 +11,8 @@
  
 Starter-Template:
 https://github.com/viandwi24/nuxt3-awesome-starter
+
+Start with yarn as package manager
+- Install dependencies "yarn install"
+- Run "yarn dev" to start development server
+- Open http://localhost:3000 
