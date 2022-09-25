@@ -14,10 +14,10 @@ pages:
     title: components page
     description: this is a components page
     just_components_page_with_title: just components page with title
-  post:
-    nav: post
-    title: post
-    description: this is a post page
+  news:
+    nav: news
+    title: news
+    description: this is a news page
   test:
     nav: test
     title: test

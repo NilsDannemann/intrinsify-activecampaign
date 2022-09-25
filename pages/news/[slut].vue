@@ -18,7 +18,7 @@ definePageMeta({
         </PageBody>
       </template>
       <template #empty>
-        <h1>Post in empty</h1>
+        <h1>News is empty</h1>
       </template>
       <template #not-found>
         <Error :code="404" wrap />

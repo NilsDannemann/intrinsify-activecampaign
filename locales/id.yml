@@ -14,10 +14,10 @@ pages:
     title: halaman kosong
     description: ini adalah halaman kosong
     just_components_page_with_title: hanya halaman kosong dengan judul
-  post:
+  news:
     nav: pos
     title: pos
-    description: ini adalah halaman posting
+    description: ini adalah halaman newsing
   test:
     nav: uji
     title: pengujian
