@@ -14,6 +14,8 @@ declare module '@vue/runtime-core' {
     'IconClarity:timesLine': typeof import('~icons/clarity/times-line')['default']
     IconFaSolid: ellipsisV': typeof import('~icons/fa-solid/ellipsis-v')['default']
     'IconFaSolid:ellipsisV': typeof import('~icons/fa-solid/ellipsis-v')['default']
+    IconIc: baselineContentCopy': typeof import('~icons/ic/baseline-content-copy')['default']
+    'IconIc:baselineContentCopy': typeof import('~icons/ic/baseline-content-copy')['default']
     IconLa: language': typeof import('~icons/la/language')['default']
     'IconLa:language': typeof import('~icons/la/language')['default']
     IconMdi: githubFace': typeof import('~icons/mdi/github-face')['default']

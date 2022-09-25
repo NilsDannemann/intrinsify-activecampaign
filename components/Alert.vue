@@ -86,7 +86,7 @@ const close = () => {
           </slot>
         </div>
         <div class="flex-1">
-          <div :class="font-semibold text-lg mb-0.5">
+          <div :class="`font-semibold text-lg mb-0.5`">
             <slot name="title">{{ props.title }}</slot>
           </div>
           <div class="text-gray-700 dark:text-gray-100">
