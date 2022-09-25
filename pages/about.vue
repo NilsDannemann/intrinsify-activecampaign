@@ -1,6 +1,22 @@
 <script lang="ts" setup>
 import { capitalize } from '~/utils/str'
 
+
+const sessionCategories = [
+  {
+    name: 'Super Session',
+    dateCreated: new Date(),
+    description: 'Lorem ipsum blah blah lbah'
+  },
+  {
+    name: 'Super Session',
+    dateCreated: new Date(),
+    description: 'Lorem ipsum blah blah lbah'
+  },
+]
+
+
+
 // composable
 const { t } = useLang()
 
@@ -28,7 +44,7 @@ useHead(() => ({
       <PageSection>
 
         <div class="grid lg:grid-cols-4 md:grid-cols-3 sm:grid-cols-1 gap-6">
-          <div v-for="i in 10" :key="i">
+          <div v-for="i in 4" :key="i">
             <Card>
               <Card-Title>Beginner Sessions</Card-Title>
               <Card-Image><img src="~/assets/images/placeholder-1440x650.jpg"></Card-Image>

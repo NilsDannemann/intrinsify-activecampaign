@@ -67,11 +67,11 @@ const close = () => {
       leave-to="opacity-0"
     >
       <div
-        :class="`bg-gray-200 dark:bg-slate-800 bg-gradient-to-r shadow-white/50 dark:shadow-slate-900/50 px-6 py-6 rounded-md shadow-lg flex space-x-6 ${selectedStyle}`"
+        :class="`dark:bg-slate-800 border dark:border-0 px-6 py-6 rounded flex space-x-6 ${selectedStyle}`"
       >
         <div class="flex items-center justify-center">
           <slot name="icon">
-            <IconMdi:checkCircle
+            <IconMdi:alert-circle-check
               v-if="selectedType === 'success'"
               :class="`text-2xl ${selectedTextStyle}`"
             />
@@ -86,7 +86,7 @@ const close = () => {
           </slot>
         </div>
         <div class="flex-1">
-          <div :class="`font-bold text-lg mb-0.5 ${selectedTextStyle}`">
+          <div :class="font-semibold text-lg mb-0.5">
             <slot name="title">{{ props.title }}</slot>
           </div>
           <div class="text-gray-700 dark:text-gray-100">

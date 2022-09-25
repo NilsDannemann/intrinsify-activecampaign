@@ -9,11 +9,11 @@ pages:
     title: halaman tidak ditemukan
   index:
     title: nuxt 3[]luar biasa[]pemula
-  blank:
+  components:
     nav: kosong
     title: halaman kosong
     description: ini adalah halaman kosong
-    just_blank_page_with_title: hanya halaman kosong dengan judul
+    just_components_page_with_title: hanya halaman kosong dengan judul
   post:
     nav: pos
     title: pos

@@ -67,7 +67,7 @@ const updateIndicator = () => {
   <div ref="tabs" class="tabs">
     <ClientOnly>
       <div
-        class="tabs-header relative overflow-hidden flex space-x-6 text-sm font-bold text-gray-300 bg-primary rounded-t-lg px-5 py-3"
+        class="tabs-header relative overflow-hidden flex space-x-6 text-sm font-bold text-primary-300 bg-primary rounded-t px-5 py-3"
       >
         <div
           v-for="item in tabItems"
@@ -90,12 +90,12 @@ const updateIndicator = () => {
           class="absolute flex h-full top-0 left-0 p-1 py-1.5 overflow-hidden transition-all duration-300"
           :style="{ zIndex: 1 }"
         >
-          <span class="flex-1 bg-primary-100/20 rounded-sm" />
+          <span class="flex-1 bg-primary-100/20 rounded" />
         </span>
       </div>
     </ClientOnly>
     <div
-      class="tabs-body relative text-slate-800 dark:text-white bg-gray-100 dark:bg-slate-800 shadow rounded-b-lg"
+      class="tabs-body relative text-slate-800 dark:text-white bg-gray-100 dark:bg-slate-800 rounded-b"
     >
       <slot />
     </div>

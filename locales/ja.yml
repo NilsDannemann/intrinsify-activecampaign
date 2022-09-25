@@ -9,11 +9,11 @@ pages:
     title: ページが見つかりません
   index:
     title: nuxt 3[]素晴らしい[]スターター
-  blank:
+  components:
     nav: 空欄
     title: 空白ページ
     description: これは空白のページです
-    just_blank_page_with_title: タイトルのある空白のページ
+    just_components_page_with_title: タイトルのある空白のページ
   post:
     nav: 役職
     title: 役職
