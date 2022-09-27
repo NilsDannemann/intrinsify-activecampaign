@@ -1,21 +1,8 @@
 <script lang="ts" setup>
 import { capitalize } from '~/utils/str'
 
-
-const sessionCategories = [
-  {
-    name: 'Super Session',
-    dateCreated: new Date(),
-    description: 'Lorem ipsum blah blah lbah'
-  },
-  {
-    name: 'Super Session',
-    dateCreated: new Date(),
-    description: 'Lorem ipsum blah blah lbah'
-  },
-]
-
-
+// Sample API
+// https://mockend.com/NilsDannemann/sample-json/sessions?limit=8
 
 // composable
 const { t } = useLang()
