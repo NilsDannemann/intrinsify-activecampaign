@@ -41,7 +41,7 @@ const menus = computed((): IMenuItem[] => [
     <template #menu>
       <div class="relative hidden lg:flex items-center ml-auto">
         <nav
-          class="text-sm leading-6 font-semibold text-gray-600 dark:text-gray-300"
+          class="text-md leading-6 font-semibold text-gray-600 dark:text-gray-300"
           role="navigation"
         >
           <ul class="flex items-center space-x-8">
@@ -56,7 +56,7 @@ const menus = computed((): IMenuItem[] => [
               <Button
                 v-else-if="item.type === 'button'"
                 :text="item.text"
-                size="sm"
+                size="md"
                 class="font-extrabold capitalize"
                 :to="item.route ? item.route : undefined"
                 :href="item.href ? item.href : undefined"

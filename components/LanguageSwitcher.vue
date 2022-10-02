@@ -35,7 +35,7 @@ const localeSetting = useState<string>('locale.setting')
         title="Change Language"
         class="transition-colors duration-300"
       >
-        <span class="justify-center items-center flex font-medium uppercase">
+        <span class="justify-center items-center flex text-md font-semibold uppercase">
           <!-- <IconIc:round-language /> -->
           {{localeSetting}}
         </span>
