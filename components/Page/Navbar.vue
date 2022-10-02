@@ -125,6 +125,8 @@ const menus = computed((): IMenuItem[] => [
           title="Website"
           href="https://intrinsify.de"
           target="blank"
+          size="sm"
+          class="border-white hover:border-gray-200"
         >
           <IconTabler:external-link />
           <span class="ml-1">intrinsify.de</span>
@@ -132,6 +134,8 @@ const menus = computed((): IMenuItem[] => [
         <Button
           text="Close"
           type="secondary"
+          size="sm"
+          class="border-white hover:border-gray-200"
           @click.prevent="toggleOptions(false)"
         />
       </ActionSheet>
