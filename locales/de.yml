@@ -1,0 +1,80 @@
+components:
+  language_switcher:
+    change_language: sprache ändern
+  theme_switcher:
+    theme: theme
+    change_theme: theme wechseln
+pages:
+  '404':
+    title: seite nicht gefunden
+  index:
+    title: nuxt 3[]super[]starter
+  components:
+    nav: komponenten
+    title: komponenten seite
+    description: dies ist eine komponentenseite
+    just_components_page_with_title: nur komponentenseite mit titel
+  news:
+    nav: nachrichten
+    title: nachrichten
+    description: dies ist eine nachrichtenseite
+  test:
+    nav: prüfung
+    title: prüfung
+    description: dies ist eine testseite
+    counter: zähler
+    increment: zuwachs
+    decrement: dekrementieren
+    reset: zurücksetzen
+    identity: identität
+    full_name: vollständiger name
+  about:
+    nav: sitzungen
+    title: sitzungen
+    description: dies sind ihre sitzungen
+  setting:
+    nav: einstellung
+    title: einstellung
+    description: dies ist eine einstellungsseite
+    sections:
+      validate_username:
+        title: github-profil validieren
+        description: >-
+          geben sie ihren github-benutzernamen ein und klicken sie zur
+          bestätigung auf die schaltfläche.
+        footer: lerne mehr über
+        footer_button: bestätigen
+        footer_link: github-benutzer-api
+      bot_id:
+        title: bot-id
+        description: dies ist ihre bot-id.
+        footer: wird bei der interaktion mit dem bot verwendet.
+      protection_spam:
+        title: spamschutz
+        description: toggle enable, um den roten rahmen zu entfernen
+        footer: >-
+          wenn sie diese option aktivieren, schützen wir ihre kommentare vor
+          spam
+      advanced_enable_advanced:
+        title: erweiterte einstellungen aktivieren
+        description: >-
+          sie können erweiterte einstellungen aktivieren, um die einstellungen
+          zu ändern
+      advanced_dir_listing:
+        title: verzeichnisliste
+        description: >-
+          wenn in einem verzeichnis keine indexdatei vorhanden ist, wird der
+          inhalt des verzeichnisses angezeigt.
+  dashboard:
+    nav: armaturenbrett
+    title: armaturenbrett
+    index:
+      nav: heimat
+      title: heimat
+banners:
+  welcome: hallo, willkommen bei %{app_name}!
+others:
+  learn_more: lern mehr
+  copy: kopieren
+  enabled: aktiviert
+  disabled: deaktiviert

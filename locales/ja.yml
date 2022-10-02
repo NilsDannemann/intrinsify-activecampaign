@@ -10,14 +10,14 @@ pages:
   index:
     title: nuxt 3[]素晴らしい[]スターター
   components:
-    nav: 空欄
-    title: 空白ページ
-    description: これは空白のページです
-    just_components_page_with_title: タイトルのある空白のページ
+    nav: コンポーネント
+    title: コンポーネントページ
+    description: これはコンポーネントのページです
+    just_components_page_with_title: タイトル付きのコンポーネントのみのページ
   news:
-    nav: 役職
-    title: 役職
-    description: これは投稿ページです
+    nav: ニュース
+    title: ニュース
+    description: これはニュースページです
   test:
     nav: テスト
     title: テスト
@@ -29,9 +29,9 @@ pages:
     identity: 身元
     full_name: フルネーム
   about:
-    nav: 入門
-    title: 入門
-    description: これは入門ページです
+    nav: セッション
+    title: セッション
+    description: これらはあなたのセッションです
   setting:
     nav: 設定
     title: 設定
@@ -39,7 +39,7 @@ pages:
     sections:
       validate_username:
         title: github プロファイルを検証する
-        description: github ユーザー名を入力し、ボタンをクリックして検証します。
+        description: github のユーザー名を入力し、ボタンをクリックして検証します。
         footer: 詳しくはこちら
         footer_button: 検証
         footer_link: github ユーザー api

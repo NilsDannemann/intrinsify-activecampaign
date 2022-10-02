@@ -10,14 +10,14 @@ pages:
   index:
     title: nuxt 3[]멋진[]스타터
   components:
-    nav: 공백
-    title: 빈 페이지
-    description: 이것은 빈 페이지입니다
-    just_components_page_with_title: 제목이 있는 빈 페이지
+    nav: 구성 요소
+    title: 구성 요소 페이지
+    description: 이것은 구성 요소 페이지입니다
+    just_components_page_with_title: 제목이 있는 구성 요소 페이지
   news:
-    nav: 게시하다
-    title: 게시하다
-    description: 이것은 게시물 페이지입니다
+    nav: 소식
+    title: 소식
+    description: 이것은 뉴스 페이지입니다
   test:
     nav: 테스트
     title: 테스트
@@ -29,9 +29,9 @@ pages:
     identity: 신원
     full_name: 전체 이름
   about:
-    nav: 시작하기
-    title: 시작하기
-    description: 이것은 시작 페이지입니다
+    nav: 세션
+    title: 세션
+    description: 이것은 당신의 세션입니다
   setting:
     nav: 환경
     title: 환경

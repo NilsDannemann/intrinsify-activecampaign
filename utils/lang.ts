@@ -14,10 +14,10 @@ export const availableLocales: ILocales = {
     iso: 'en',
     flag: '🇺🇸',
   },
-  id: {
-    name: 'Bahasa',
-    iso: 'id',
-    flag: '🇮🇩',
+  de: {
+    name: 'Deutsch',
+    iso: 'de',
+    flag: '🇩🇪',
   },
 }
 
@@ -31,10 +31,10 @@ export function LanguageManager() {
     try {
       const foundLang = window
         ? window.navigator.language.substring(0, 2)
-        : 'en'
-      return availableLocales[foundLang] ? foundLang : 'en'
+        : 'de'
+      return availableLocales[foundLang] ? foundLang : 'de'
     } catch (error) {
-      return 'en'
+      return 'de'
     }
   }
   const getUserLocale = (): string =>

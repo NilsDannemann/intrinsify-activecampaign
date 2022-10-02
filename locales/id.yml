@@ -10,17 +10,17 @@ pages:
   index:
     title: nuxt 3[]luar biasa[]pemula
   components:
-    nav: kosong
-    title: halaman kosong
-    description: ini adalah halaman kosong
-    just_components_page_with_title: hanya halaman kosong dengan judul
+    nav: komponen
+    title: halaman komponen
+    description: ini adalah halaman komponen
+    just_components_page_with_title: hanya halaman komponen dengan judul
   news:
-    nav: pos
-    title: pos
-    description: ini adalah halaman newsing
+    nav: berita
+    title: berita
+    description: ini adalah halaman berita
   test:
     nav: uji
-    title: pengujian
+    title: uji
     description: ini adalah halaman percobaan
     counter: menangkal
     increment: kenaikan
@@ -29,9 +29,9 @@ pages:
     identity: identitas
     full_name: nama lengkap
   about:
-    nav: mulai
-    title: mulai
-    description: ini adalah halaman memulai
+    nav: sesi
+    title: sesi
+    description: ini adalah sesi anda
   setting:
     nav: pengaturan
     title: pengaturan
@@ -50,7 +50,7 @@ pages:
       protection_spam:
         title: proteksi spam
         description: alihkan aktifkan untuk menghapus batas merah
-        footer: jika diaktifkan, kami akan mengamankan komentar anda dari spam
+        footer: jika memungkinkan kami akan mengamankan komentar anda dari spam
       advanced_enable_advanced:
         title: aktifkan pengaturan lanjutan
         description: anda dapat mengaktifkan pengaturan lanjutan untuk mengubah pengaturan
