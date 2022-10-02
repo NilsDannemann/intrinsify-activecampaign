@@ -70,14 +70,6 @@ const menus = computed((): IMenuItem[] => [
         >
           <LanguageSwitcher />
           <ThemeSwitcher />
-          <Anchor
-            class="hover:no-underline hover:text-slate-900 hover:dark:text-white text-lg flex self-center items-center"
-            href="https://intrinsify.de"
-            title="Website"
-            target="blank"
-          >
-            <IconMdi:github-face />
-          </Anchor>
         </div>
       </div>
     </template>
@@ -134,7 +126,7 @@ const menus = computed((): IMenuItem[] => [
           target="blank"
         >
           <IconMdi:github-face />
-          <span class="ml-1">Github</span>
+          <span class="ml-1">Gitttttttttthub</span>
         </Button>
         <Button
           text="Close"

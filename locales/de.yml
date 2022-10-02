@@ -10,13 +10,13 @@ pages:
   index:
     title: intrinsify akademie
   components:
-    nav: components
-    title: components
-    description: verfügbare components
+    nav: komponenten
+    title: komponenten
+    description: verfügbare komponenten
     just_components_page_with_title: nur komponentenseite mit titel
   news:
-    nav: nachrichten
-    title: nachrichten
+    nav: news
+    title: news
     description: dies ist eine nachrichtenseite
   test:
     nav: test

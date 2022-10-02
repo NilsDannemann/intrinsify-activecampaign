@@ -8,7 +8,7 @@
             src="https://images.unsplash.com/photo-1535713875002-d1d0cf377fde?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=634&q=80"
             alt="Avatar of Jonathan Reinink"
           />
-          <span class="ml-2 text-sm font-semibold">Alfian</span>
+          <span class="ml-2 text-sm font-semibold">Test</span>
           <IconUil:angle-down />
         </div>
         <div
