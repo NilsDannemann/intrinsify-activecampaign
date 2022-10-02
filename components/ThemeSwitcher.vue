@@ -53,7 +53,7 @@ const currentStyle = toRef(props, 'type')
           :value="theme.key"
           :class="{
             'py-2 px-2 flex items-center cursor-pointer': true,
-            'text-sky-500 bg-gray-100 dark:bg-gray-600/30':
+            'text-primary bg-gray-100 dark:bg-gray-600/30':
               themeSetting === theme.key,
             'hover:bg-gray-50 dark:hover:bg-gray-700/30':
               themeSetting !== theme.key,

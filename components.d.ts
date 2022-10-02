@@ -22,6 +22,8 @@ declare module '@vue/runtime-core' {
     IconSimpleIcons: nuxtdotjs': typeof import('~icons/simple-icons/nuxtdotjs')['default']
     'IconSimpleIcons:nuxtdotjs': typeof import('~icons/simple-icons/nuxtdotjs')['default']
     IconUil: times': typeof import('~icons/uil/times')['default']
+    'IconUil:angleDown': typeof import('~icons/uil/angle-down')['default']
+    'IconUil:apps': typeof import('~icons/uil/apps')['default']
     'IconUil:bars': typeof import('~icons/uil/bars')['default']
     'IconUil:clock': typeof import('~icons/uil/clock')['default']
     'IconUil:laptop': typeof import('~icons/uil/laptop')['default']

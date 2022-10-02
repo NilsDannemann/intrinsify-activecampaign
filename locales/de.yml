@@ -2,25 +2,25 @@ components:
   language_switcher:
     change_language: sprache ändern
   theme_switcher:
-    theme: thema
-    change_theme: thema wechseln
+    theme: theme
+    change_theme: theme wechseln
 pages:
   '404':
     title: seite nicht gefunden
   index:
-    title: nuxt 3[]super[]starter
+    title: intrinsify akademie
   components:
-    nav: komponenten
-    title: komponenten seite
-    description: dies ist eine komponentenseite
+    nav: components
+    title: components
+    description: verfügbare components
     just_components_page_with_title: nur komponentenseite mit titel
   news:
     nav: nachrichten
     title: nachrichten
     description: dies ist eine nachrichtenseite
   test:
-    nav: prüfung
-    title: prüfung
+    nav: test
+    title: test
     description: dies ist eine testseite
     counter: zähler
     increment: zuwachs
@@ -29,12 +29,12 @@ pages:
     identity: identität
     full_name: vollständiger name
   about:
-    nav: sitzungen
-    title: sitzungen
-    description: dies sind ihre sitzungen
+    nav: sessions
+    title: sessions
+    description: dies sind ihre sessions
   setting:
-    nav: einstellung
-    title: einstellung
+    nav: einstellungen
+    title: einstellungen
     description: dies ist eine einstellungsseite
     sections:
       validate_username:
@@ -66,15 +66,15 @@ pages:
           wenn in einem verzeichnis keine indexdatei vorhanden ist, wird der
           inhalt des verzeichnisses angezeigt.
   dashboard:
-    nav: armaturenbrett
-    title: armaturenbrett
+    nav: dashboard
+    title: dashboard
     index:
-      nav: heimat
-      title: heimat
+      nav: home
+      title: htom
 banners:
   welcome: hallo, willkommen bei %{app_name}!
 others:
-  learn_more: lern mehr
+  learn_more: mehr erfahren
   copy: kopieren
   enabled: aktiviert
   disabled: deaktiviert

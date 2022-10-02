@@ -48,18 +48,18 @@ const localeSetting = useState<string>('locale.setting')
           :value="lang.iso"
           :class="{
             'py-2 px-2 flex items-center cursor-pointer': true,
-            'text-sky-500 bg-gray-100 dark:bg-gray-600/30':
+            'text-primary bg-gray-100 dark:bg-gray-600/30':
               localeSetting === lang.iso,
             'hover:bg-gray-50 dark:hover:bg-gray-700/30':
               localeSetting !== lang.iso,
           }"
         >
-          <span class="text-sm mr-2">
+          <span class="mr-2">
             {{ lang.flag }}
           </span>
-          <span class="flex-1 truncate">
+          <span class="flex justify-between flex-1 truncate">
             {{ lang.name }}
-            <span class="text-xs">({{ lang.iso }})</span>
+            <span class="text-slate-400">({{ lang.iso }})</span>
           </span>
         </ListboxOption>
       </ListboxOptions>
