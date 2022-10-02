@@ -16,16 +16,14 @@ const menus = computed((): IMenuItem[] => [
   { type: 'link', text: t('pages.test.nav'), route: { name: 'test' } },
   { type: 'link', text: t('pages.news.nav'), route: { name: 'news' } },
   { type: 'link', text: t('pages.setting.nav'), route: { name: 'setting' } },
-  {
-    type: 'button',
-    text: t('pages.dashboard.nav'),
-    route: { name: 'dashboard' },
-  },
+  { type: 'button', text: t('pages.dashboard.nav'), route: { name: 'dashboard' } },
 ])
 </script>
 
+
 <template>
   <BuilderNavbar>
+
     <template #banner>
       <div
         class="text-white text-xs text-center font-medium py-1 px-4 lg:px-8 bg-primary-500 capitalize"
@@ -40,6 +38,7 @@ const menus = computed((): IMenuItem[] => [
         />
       </div>
     </template>
+
     <template #menu>
       <div class="relative hidden lg:flex items-center ml-auto">
         <nav
