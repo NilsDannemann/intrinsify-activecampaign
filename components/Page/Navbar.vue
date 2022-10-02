@@ -25,13 +25,13 @@ const menus = computed((): IMenuItem[] => [
 
     <template #banner>
       <div
-        class="text-white text-sm text-center font-medium py-1 px-4 lg:px-8 bg-primary-500 capitalize"
+        class="text-white text-sm text-center py-1 px-4 lg:px-8 bg-primary-500 capitalize"
       >
         <span class="mr-1">
           {{ $t('banners.welcome', { app_name: app.name }) }}
         </span>
         <Anchor
-          class="underline font-bold"
+          class="underline font-medium"
           :text="$t('others.learn_more')"
           href="https://intrinsify.de"
         />
@@ -41,7 +41,7 @@ const menus = computed((): IMenuItem[] => [
     <template #menu>
       <div class="relative hidden lg:flex items-center ml-auto">
         <nav
-          class="text-md leading-6 font-semibold text-gray-600 dark:text-gray-300"
+          class="text-md leading-6 font-medium text-gray-600 dark:text-gray-300"
           role="navigation"
         >
           <ul class="flex items-center space-x-8">
@@ -57,7 +57,7 @@ const menus = computed((): IMenuItem[] => [
                 v-else-if="item.type === 'button'"
                 :text="item.text"
                 size="md"
-                class="font-extrabold uppercase"
+                class="font-extrabold capitalize"
                 :to="item.route ? item.route : undefined"
                 :href="item.href ? item.href : undefined"
               />
@@ -77,7 +77,7 @@ const menus = computed((): IMenuItem[] => [
       <ActionSheet @onClose="toggleOptions(false)">
         <ActionSheetBody>
           <!-- <ActionSheetHeader text="Menu" /> -->
-          <nav class="font-semibold text-gray-600 dark:text-gray-300">
+          <nav class="font-medium text-gray-600 dark:text-gray-300">
             <ul class="flex flex-col">
               <li
                 v-for="(item, i) in menus"
@@ -106,13 +106,13 @@ const menus = computed((): IMenuItem[] => [
               </li>
             </ul>
           </nav>
-          <div class="mt-6 text-sm font-semibold capitalize">
+          <div class="mt-6 text-sm font-medium capitalize">
             {{ $t('components.theme_switcher.change_theme') }}
           </div>
           <div class="mt-2">
             <ThemeSwitcher type="select-box" />
           </div>
-          <div class="mt-6 text-sm font-semibold capitalize">
+          <div class="mt-6 text-sm font-medium capitalize">
             {{ $t('components.language_switcher.change_language') }}
           </div>
           <div class="mt-2">
