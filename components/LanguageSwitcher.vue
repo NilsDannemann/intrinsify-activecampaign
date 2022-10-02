@@ -35,8 +35,9 @@ const localeSetting = useState<string>('locale.setting')
         title="Change Language"
         class="transition-colors duration-300"
       >
-        <span class="justify-center items-center flex">
-          <IconLa:language />
+        <span class="justify-center items-center flex font-medium uppercase">
+          <!-- <IconIc:round-language /> -->
+          {{localeSetting}}
         </span>
       </ListboxButton>
       <ListboxOptions
@@ -54,12 +55,12 @@ const localeSetting = useState<string>('locale.setting')
               localeSetting !== lang.iso,
           }"
         >
-          <span class="mr-2">
+          <!-- <span class="mr-2">
             {{ lang.flag }}
-          </span>
+          </span> -->
           <span class="flex justify-between flex-1 truncate">
             {{ lang.name }}
-            <span class="text-slate-400">({{ lang.iso }})</span>
+            <span>({{ lang.iso }})</span>
           </span>
         </ListboxOption>
       </ListboxOptions>
