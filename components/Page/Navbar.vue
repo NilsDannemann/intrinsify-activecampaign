@@ -73,11 +73,12 @@ const menus = computed((): IMenuItem[] => [
         </div>
       </div>
     </template>
+
     <template #options="{ toggleOptions }">
       <ActionSheet @onClose="toggleOptions(false)">
         <ActionSheetBody>
-          <ActionSheetHeader text="Menu" />
-          <nav class="leading-6 font-semibold text-gray-600 dark:text-gray-300">
+          <!-- <ActionSheetHeader text="Menu" /> -->
+          <nav class="font-semibold text-gray-600 dark:text-gray-300">
             <ul class="flex flex-col">
               <li
                 v-for="(item, i) in menus"
@@ -92,27 +93,27 @@ const menus = computed((): IMenuItem[] => [
                   v-if="item.type === 'link'"
                   :to="item.route ? item.route : undefined"
                   :href="item.href ? item.href : undefined"
-                  class="flex-1 hover:no-underline capitalize"
+                  class="flex-1 hover:no-underline capitalize text-sm"
                   >{{ item.text }}</Anchor
                 >
                 <Button
                   v-else-if="item.type === 'button'"
                   :text="item.text"
-                  size="xs"
-                  class="flex-1 font-extrabold capitalize"
+                  size="sm"
+                  class="flex-1 capitalize"
                   :to="item.route ? item.route : undefined"
                   :href="item.href ? item.href : undefined"
                 />
               </li>
             </ul>
           </nav>
-          <div class="mt-6 text-sm font-bold capitalize">
+          <div class="mt-6 text-sm font-semibold capitalize">
             {{ $t('components.theme_switcher.change_theme') }}
           </div>
           <div class="mt-2">
             <ThemeSwitcher type="select-box" />
           </div>
-          <div class="mt-6 text-sm font-bold capitalize">
+          <div class="mt-6 text-sm font-semibold capitalize">
             {{ $t('components.language_switcher.change_language') }}
           </div>
           <div class="mt-2">
@@ -125,8 +126,8 @@ const menus = computed((): IMenuItem[] => [
           href="https://intrinsify.de"
           target="blank"
         >
-          <IconMdi:github-face />
-          <span class="ml-1">Gitttttttttthub</span>
+          <IconTabler:external-link />
+          <span class="ml-1">intrinsify.de</span>
         </Button>
         <Button
           text="Close"
@@ -135,5 +136,6 @@ const menus = computed((): IMenuItem[] => [
         />
       </ActionSheet>
     </template>
+
   </BuilderNavbar>
 </template>

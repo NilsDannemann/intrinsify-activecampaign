@@ -19,6 +19,8 @@ declare module '@vue/runtime-core' {
     'IconMdi:githubFace': typeof import('~icons/mdi/github-face')['default']
     IconSimpleIcons: nuxtdotjs': typeof import('~icons/simple-icons/nuxtdotjs')['default']
     'IconSimpleIcons:nuxtdotjs': typeof import('~icons/simple-icons/nuxtdotjs')['default']
+    IconTabler: externalLink': typeof import('~icons/tabler/external-link')['default']
+    'IconTabler:externalLink': typeof import('~icons/tabler/external-link')['default']
     IconUil: times': typeof import('~icons/uil/times')['default']
     'IconUil:bars': typeof import('~icons/uil/bars')['default']
     'IconUil:clock': typeof import('~icons/uil/clock')['default']
