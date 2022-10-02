@@ -1,0 +1,78 @@
+components:
+  language_switcher:
+    change_language: changer de langue
+  theme_switcher:
+    theme: thème
+    change_theme: change le thème
+pages:
+  '404':
+    title: page non trouvée
+  index:
+    title: nuxt 3 [] génial [] démarreur
+  components:
+    nav: composants
+    title: page des composants
+    description: ceci est une page de composants
+    just_components_page_with_title: juste la page des composants avec le titre
+  news:
+    nav: nouvelles
+    title: nouvelles
+    description: ceci est une page d'actualités
+  test:
+    nav: test
+    title: test
+    description: ceci est une page de test
+    counter: compteur
+    increment: incrément
+    decrement: décrémenter
+    reset: réinitialiser
+    identity: identité
+    full_name: nom et prénom
+  about:
+    nav: séances
+    title: séances
+    description: ce sont vos séances
+  setting:
+    nav: paramètre
+    title: paramètre
+    description: ceci est une page de configuration
+    sections:
+      validate_username:
+        title: valider le profil github
+        description: >-
+          tapez votre nom d'utilisateur github et cliquez sur le bouton pour
+          valider.
+        footer: en savoir plus sur
+        footer_button: valider
+        footer_link: api des utilisateurs de github
+      bot_id:
+        title: identifiant du bot
+        description: il s'agit de votre identifiant de bot.
+        footer: utilisé lors de l'interaction avec le bot.
+      protection_spam:
+        title: protection contre les spams
+        description: activer/désactiver pour supprimer la bordure rouge
+        footer: si activé, nous protégerons vos commentaires contre le spam
+      advanced_enable_advanced:
+        title: activer les paramètres avancés
+        description: >-
+          vous pouvez activer les paramètres avancés pour modifier les
+          paramètres
+      advanced_dir_listing:
+        title: liste du répertoire
+        description: >-
+          si aucun fichier d'index n'est présent dans un répertoire, le contenu
+          du répertoire sera affiché.
+  dashboard:
+    nav: tableau de bord
+    title: tableau de bord
+    index:
+      nav: domicile
+      title: domicile
+banners:
+  welcome: "bonjour, bienvenue dans %{app_name}\_!"
+others:
+  learn_more: apprendre encore plus
+  copy: copie
+  enabled: activé
+  disabled: désactivé

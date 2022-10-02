@@ -2,8 +2,8 @@ components:
   language_switcher:
     change_language: sprache ändern
   theme_switcher:
-    theme: theme
-    change_theme: theme wechseln
+    theme: thema
+    change_theme: thema wechseln
 pages:
   '404':
     title: seite nicht gefunden

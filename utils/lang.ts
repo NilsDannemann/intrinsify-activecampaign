@@ -9,15 +9,20 @@ export interface ILocales {
 }
 
 export const availableLocales: ILocales = {
+  de: {
+    name: 'Deutsch',
+    iso: 'de',
+    flag: '🇩🇪',
+  },
   en: {
     name: 'English',
     iso: 'en',
     flag: '🇺🇸',
   },
-  de: {
-    name: 'Deutsch',
-    iso: 'de',
-    flag: '🇩🇪',
+  fr: {
+    name: 'Français',
+    iso: 'fr',
+    flag: '🇫🇷',
   },
 }
 
