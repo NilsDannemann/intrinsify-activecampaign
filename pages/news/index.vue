@@ -41,11 +41,12 @@ useHead(() => ({
               </Anchor>
             </div>
             <div class="flex flex-col">
-              <div
-                class="text-xl font-semibold text-slate-800 dark:text-gray-50"
-              >
+              <Anchor
+                  class="text-xl font-semibold text-slate-800 dark:text-gray-50"
+                  :to="article._path"
+                >
                 {{ article.title }}
-              </div>
+              </Anchor>
               <div class="text-slate-700 dark:text-gray-300 mb-1">
                 {{ article.description }}
               </div>
