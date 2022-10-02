@@ -22,7 +22,7 @@ useHead(() => ({
 <template>
   <PageWrapper>
     <PageHeader>
-      <PageTitle :text="$t('pages.news.title')" class="capitalize" />
+      <PageTitle :text="$t('pages.news.title')" />
     </PageHeader>
     <PageBody>
       <ContentList v-slot="{ list }">

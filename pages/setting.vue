@@ -77,7 +77,7 @@ const validate = async () => {
       />
     </PageSection>
     <PageHeader>
-      <PageTitle :text="$t('pages.setting.title')" class="capitalize" />
+      <PageTitle :text="$t('pages.setting.title')" />
     </PageHeader>
     <PageBody>
       <PageSection>

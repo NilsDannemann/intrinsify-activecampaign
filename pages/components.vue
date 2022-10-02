@@ -22,12 +22,12 @@ useHead(() => ({
 <template>
   <PageWrapper>
     <PageHeader>
-      <PageTitle :text="$t('pages.components.title')" class="capitalize" />
+      <PageTitle :text="$t('pages.components.title')" />
     </PageHeader>
     <PageBody>
       <PageSection>
         
-        <h2 class="text-xl font-semibold pb-4">Cards</h2>
+        <PageSectionTitle text="Cards" />
         <div class="grid lg:grid-cols-4 md:grid-cols-3 sm:grid-cols-1 gap-6 pb-6">
           <div v-for="i in 4" :key="i">
             <Card>
@@ -39,7 +39,7 @@ useHead(() => ({
           </div>
         </div>
 
-        <h2 class="text-xl font-semibold pb-4">Alert</h2>
+        <PageSectionTitle text="Alert" />
         <Alert
           type="success"
           title="This is a sample Settings page"
@@ -47,7 +47,7 @@ useHead(() => ({
           class="mb-6"
         />
 
-        <h2 class="text-xl font-semibold pb-4">Buttons</h2>
+        <PageSectionTitle text="Buttons" />
         <div class="grid lg:grid-cols-5 md:grid-cols-3 sm:grid-cols-1 gap-6 pb-6">
           <Button type="primary" size="md" text="Button Primary" />
           <Button type="secondary" size="md" text="Button Secondary" />
@@ -56,7 +56,7 @@ useHead(() => ({
           <Button type="secondary" size="xs" text="Button xs" />
         </div>
 
-        <h2 class="text-xl font-semibold pb-4">Tabs</h2>
+        <PageSectionTitle text="Tabs" />
         <Tabs class="pb-6">
           <Tab name="git" title="git">
             <div class="p-4">
@@ -70,7 +70,7 @@ useHead(() => ({
           </Tab>
         </Tabs>
 
-        <h2 class="text-xl font-semibold pb-4">Other</h2>
+        <PageSectionTitle text="Other" />
         <Anchor text="headlessui.com" href="https://headlessui.com/vue" />
 
       </PageSection>

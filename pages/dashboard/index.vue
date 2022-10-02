@@ -7,7 +7,7 @@ definePageMeta({
 <template>
   <PageWrapper>
     <PageHeader>
-      <PageTitle :text="$t('pages.dashboard.index.title')" class="capitalize" />
+      <PageTitle :text="$t('pages.dashboard.index.title')" />
     </PageHeader>
     <PageBody>
       <PageSection>

@@ -25,7 +25,7 @@ useHead(() => ({
 <template>
   <PageWrapper>
     <PageHeader>
-      <PageTitle :text="$t('pages.about.title')" class="capitalize" />
+      <PageTitle :text="$t('pages.about.title')" />
     </PageHeader>
     <PageBody>
       <PageSection>

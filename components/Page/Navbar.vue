@@ -25,7 +25,7 @@ const menus = computed((): IMenuItem[] => [
 
     <template #banner>
       <div
-        class="text-white text-xs text-center font-medium py-1 px-4 lg:px-8 bg-primary-500 capitalize"
+        class="text-white text-sm text-center font-medium py-1 px-4 lg:px-8 bg-primary-500 capitalize"
       >
         <span class="mr-1">
           {{ $t('banners.welcome', { app_name: app.name }) }}
@@ -57,7 +57,7 @@ const menus = computed((): IMenuItem[] => [
                 v-else-if="item.type === 'button'"
                 :text="item.text"
                 size="md"
-                class="font-extrabold capitalize"
+                class="font-extrabold uppercase"
                 :to="item.route ? item.route : undefined"
                 :href="item.href ? item.href : undefined"
               />

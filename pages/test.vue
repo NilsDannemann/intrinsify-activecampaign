@@ -27,11 +27,11 @@ const identity = useIdentity()
 <template>
   <PageWrapper>
     <PageHeader>
-      <PageTitle :text="$t('pages.test.title')" class="capitalize" />
+      <PageTitle :text="$t('pages.test.title')" />
     </PageHeader>
     <PageBody>
       <PageSection>
-        <PageSectionTitle :text="$t('pages.test.counter')" class="capitalize" />
+        <PageSectionTitle :text="$t('pages.test.counter')" />
         <div class="">
           <div class="mb-2">Counter : {{ counter.count }}</div>
           <div
@@ -69,10 +69,7 @@ const identity = useIdentity()
         </div>
       </PageSection>
       <PageSection>
-        <PageSectionTitle
-          :text="$t('pages.test.identity')"
-          class="capitalize"
-        />
+        <PageSectionTitle :text="$t('pages.test.identity')" />
         <div class="mb-2">
           <span class="capitalize">{{ $t('pages.test.full_name') }} : </span>
           <span>{{ identity.fullName }}</span>
