@@ -20,7 +20,6 @@ const menus = computed((): IMenuItem[] => [
 ])
 </script>
 
-
 <template>
   <BuilderNavbar>
 
