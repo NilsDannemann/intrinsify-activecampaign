@@ -37,7 +37,7 @@ const styles = reactive<{
   secondary:
     'text-slate-800 bg-white border-gray-200 hover:bg-gray-200 dark:text-white dark:border-slate-800 dark:bg-slate-800 dark:hover:bg-slate-700 dark:hover:border-slate-700',
   opposite:
-    'text-white bg-gray-800 border-gray-800 hover:bg-gray-200 hover:text-slate-800 hover:border-gray-200 hover:text-white dark:text-gray-800 dark:bg-gray-100 dark:hover:text-white dark:hover:bg-slate-700 dark:hover:border-slate-700',
+    'text-white bg-gray-800 border-gray-800 hover:bg-gray-200 hover:text-slate-800 hover:border-gray-200 dark:text-gray-800 dark:bg-gray-100 dark:hover:text-white dark:hover:bg-slate-700 dark:hover:border-slate-700',
 })
 const sizes = reactive<{
   [key: string]: string
