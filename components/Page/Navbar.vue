@@ -41,7 +41,7 @@ const menus = computed((): IMenuItem[] => [
     <template #menu>
       <div class="relative hidden lg:flex items-center ml-auto">
         <nav
-          class="text-md leading-6 font-medium text-gray-600 dark:text-gray-300"
+          class="text-md text-gray-600 dark:text-gray-300"
           role="navigation"
         >
           <ul class="flex items-center space-x-8">
@@ -77,7 +77,7 @@ const menus = computed((): IMenuItem[] => [
       <ActionSheet @onClose="toggleOptions(false)">
         <ActionSheetBody>
           <!-- <ActionSheetHeader text="Menu" /> -->
-          <nav class="font-medium text-gray-600 dark:text-gray-300">
+          <nav class="text-gray-600 dark:text-gray-300">
             <ul class="flex flex-col">
               <li
                 v-for="(item, i) in menus"
