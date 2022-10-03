@@ -90,9 +90,9 @@ const validate = async () => {
             <HeadlessUiTab v-slot="{ selected }" as="template">
               <button
                 :class="[
-                  'md:w-full text-left px-3 py-1.5 rounded py-2.5 text-sm leading-5 transition-all hover:bg-gray-200 hover:text-slate-900 dark:hover:bg-white/[0.12] dark:hover:text-white',
+                  'md:w-full text-left px-3 py-1.5 rounded py-2.5 leading-5 transition-all hover:bg-gray-200 hover:text-slate-900 dark:hover:bg-white/[0.12] dark:hover:text-white',
                   selected
-                    ? 'font-extrabold'
+                    ? 'font-semibold'
                     : 'text-slate-800 dark:text-gray-400',
                 ]"
               >
@@ -102,9 +102,9 @@ const validate = async () => {
             <HeadlessUiTab v-slot="{ selected }" as="template">
               <button
                 :class="[
-                  'md:w-full text-left px-3 py-1.5 rounded py-2.5 text-sm leading-5 transition-all hover:bg-gray-200 hover:text-slate-900 dark:hover:bg-white/[0.12] dark:hover:text-white',
+                  'md:w-full text-left px-3 py-1.5 rounded py-2.5 leading-5 transition-all hover:bg-gray-200 hover:text-slate-900 dark:hover:bg-white/[0.12] dark:hover:text-white',
                   selected
-                    ? 'font-extrabold'
+                    ? 'font-semibold'
                     : 'text-slate-800 dark:text-gray-400',
                 ]"
               >
@@ -114,9 +114,9 @@ const validate = async () => {
             <HeadlessUiTab v-slot="{ selected }" as="template">
               <button
                 :class="[
-                  'md:w-full text-left px-3 py-1.5 rounded py-2.5 text-sm leading-5 transition-all hover:bg-gray-200 hover:text-slate-900 dark:hover:bg-white/[0.12] dark:hover:text-white',
+                  'md:w-full text-left px-3 py-1.5 rounded py-2.5 leading-5 transition-all hover:bg-gray-200 hover:text-slate-900 dark:hover:bg-white/[0.12] dark:hover:text-white',
                   selected
-                    ? 'font-extrabold'
+                    ? 'font-semibold'
                     : 'text-slate-800 dark:text-gray-400',
                 ]"
               >
