@@ -57,7 +57,7 @@ const menus = computed((): IMenuItem[] => [
                 v-else-if="item.type === 'button'"
                 :text="item.text"
                 size="md"
-                class="font-extrabold capitalize"
+                class="uppercase"
                 :to="item.route ? item.route : undefined"
                 :href="item.href ? item.href : undefined"
               />

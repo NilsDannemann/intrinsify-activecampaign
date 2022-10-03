@@ -155,7 +155,7 @@ const toggleOptions = (show?: boolean) => {
 }
 
 a.router-link-active {
-  font-weight: bold;
+  font-weight: 600;
 }
 a.router-link-exact-active {
   color: theme('colors.slate.900');
