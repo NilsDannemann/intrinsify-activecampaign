@@ -29,8 +29,8 @@ pages:
     identity: identity
     full_name: fullName
   about:
-    nav: sessions
-    title: sessions
+    nav: about us
+    title: about
     description: these are your sessions
   setting:
     nav: setting

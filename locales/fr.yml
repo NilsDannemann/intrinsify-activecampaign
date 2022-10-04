@@ -29,8 +29,8 @@ pages:
     identity: identité
     full_name: nom et prénom
   about:
-    nav: séances
-    title: séances
+    nav: aboute
+    title: aboute
     description: ce sont vos séances
   setting:
     nav: paramètre

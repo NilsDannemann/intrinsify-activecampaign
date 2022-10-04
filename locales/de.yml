@@ -29,8 +29,8 @@ pages:
     identity: identität
     full_name: vollständiger name
   about:
-    nav: sessions
-    title: sessions
+    nav: Über uns
+    title: über uns
     description: dies sind ihre sessions
   setting:
     nav: einstellungen
