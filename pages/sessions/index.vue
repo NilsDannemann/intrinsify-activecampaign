@@ -31,12 +31,14 @@
         <PageSection>
           <div class="grid lg:grid-cols-4 md:grid-cols-3 sm:grid-cols-1 gap-6">
             <div v-for="session in sessions">
-              <Card>
-                <Card-Title :text="session.title" />
-                <Card-Image :src="session.image" />
-                <Card-Content :text="session.description" />
-                <Card-Footer>ID: {{ session.id }}</Card-Footer>
-              </Card>
+              <Anchor :to="'sessions/beginner/' + session.id">
+                <Card>
+                  <Card-Title :text="session.title" />
+                  <Card-Image :src="session.image" />
+                  <Card-Content :text="session.description" />
+                  <Card-Footer>ID: {{ session.id }}</Card-Footer>
+                </Card>
+              </Anchor>
             </div>
           </div>
         </PageSection>

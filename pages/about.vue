@@ -2,7 +2,7 @@
 import { capitalize } from '~/utils/str'
 
 // sample API
-const { data: sessions } = await useFetch('http://localhost:3004/sessions')
+const { data: sessions } = await useFetch('http://localhost:3004/sessions', { initialCache: false })
 
 // composable
 const { t } = useLang()
