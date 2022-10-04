@@ -87,7 +87,7 @@ const toggleOptions = (show?: boolean) => {
             >
               <span class="sr-only">home</span>
               <span class="flex items-center">
-                <img src="~/assets/images/logo.svg" class="w-40" />
+                <Anchor to="/" class="app-logo" />
               </span>
             </NuxtLink>
           </slot>
@@ -142,6 +142,17 @@ const toggleOptions = (show?: boolean) => {
 </template>
 
 <style lang="scss">
+
+.app-logo {
+  height: 60px;
+  width: 155px;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-image: url('~/assets/images/logo.svg');
+}
+html.dark .app-logo {
+  background-image: url('~/assets/images/logo-light.svg');
+}
 .slide-fade-from-up-enter-active {
   transition: all 0.3s ease-out;
 }
