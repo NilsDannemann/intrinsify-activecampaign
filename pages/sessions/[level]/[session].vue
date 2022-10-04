@@ -3,13 +3,13 @@ definePageMeta({
   layout: 'page',
 })
 const route = useRoute()
-// const { data: session } = await useFetch('http://localhost:3004/sessions/' + route.params.session)
+const { data: session } = await useFetch('http://localhost:3004/sessions/' + route.params.session)
 
-const session = ref({})
+// const session = ref({})
 
-onMounted(async () => {
-    session.value = await fetch('http://localhost:3004/sessions/' + route.params.session).then(response => response.json()).catch(error => console.error(error))
-})
+// onMounted(async () => {
+//     session.value = await fetch('http://localhost:3004/sessions/' + route.params.session).then(response => response.json()).catch(error => console.error(error))
+// })
 
 </script>
 
