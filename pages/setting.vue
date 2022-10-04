@@ -127,15 +127,13 @@ const validate = async () => {
           <TabPanels class="flex-1">
             <TabPanel>
               <Card class="mb-4">
+                <CardTitle
+                  class="capitalize"
+                  :text="$t('pages.setting.sections.validate_username.title')"
+                />
                 <CardContent>
-                  <CardTitle
-                    class="capitalize"
-                    :text="$t('pages.setting.sections.validate_username.title')"
-                  />
                   <p class="mb-2">
-                    {{
-                      $t('pages.setting.sections.validate_username.description')
-                    }}
+                    {{ $t('pages.setting.sections.validate_username.description') }}
                   </p>
                   <div class="flex">
                     <FormTextInput v-model="username" class="w-full md:w-1/3">
@@ -174,11 +172,11 @@ const validate = async () => {
                 </CardFooter>
               </Card>
               <Card class="mb-4">
+                <CardTitle
+                  class="capitalize"
+                  :text="$t('pages.setting.sections.bot_id.title')"
+                />
                 <CardContent>
-                  <CardTitle
-                    class="capitalize"
-                    :text="$t('pages.setting.sections.bot_id.title')"
-                  />
                   <p class="mb-2">
                     {{ $t('pages.setting.sections.bot_id.description') }}
                   </p>
@@ -210,15 +208,13 @@ const validate = async () => {
                   'border-red-500 dark:border-red-500': !enableSpamProtection,
                 }"
               >
+                <CardTitle
+                  class="capitalize"
+                  :text="$t('pages.setting.sections.protection_spam.title')"
+                />
                 <CardContent>
-                  <CardTitle
-                    class="capitalize"
-                    :text="$t('pages.setting.sections.protection_spam.title')"
-                  />
                   <p class="mb-2">
-                    {{
-                      $t('pages.setting.sections.protection_spam.description')
-                    }}
+                    {{$t('pages.setting.sections.protection_spam.description')}}
                   </p>
                   <div class="flex">
                     <FormSwitch v-model="enableSpamProtection">
@@ -239,21 +235,13 @@ const validate = async () => {
             </TabPanel>
             <TabPanel>
               <Card class="mb-4">
+                <CardTitle
+                  class="capitalize"
+                  :text="$t('pages.setting.sections.advanced_enable_advanced.title')"
+                />
                 <CardContent>
-                  <CardTitle
-                    class="capitalize"
-                    :text="
-                      $t(
-                        'pages.setting.sections.advanced_enable_advanced.title'
-                      )
-                    "
-                  />
                   <p class="mb-2">
-                    {{
-                      $t(
-                        'pages.setting.sections.advanced_enable_advanced.description'
-                      )
-                    }}
+                    {{$t('pages.setting.sections.advanced_enable_advanced.description')}}
                   </p>
                   <div class="flex">
                     <FormSwitch v-model="enableAdvancedSetting">
@@ -267,19 +255,13 @@ const validate = async () => {
                 </CardContent>
               </Card>
               <Card class="mb-4" :disabled="!enableAdvancedSetting">
+                <CardTitle
+                  class="capitalize"
+                  :text="$t('pages.setting.sections.advanced_dir_listing.title')"
+                />
                 <CardContent>
-                  <CardTitle
-                    class="capitalize"
-                    :text="
-                      $t('pages.setting.sections.advanced_dir_listing.title')
-                    "
-                  />
                   <p class="mb-2">
-                    {{
-                      $t(
-                        'pages.setting.sections.advanced_dir_listing.description'
-                      )
-                    }}
+                    {{$t('pages.setting.sections.advanced_dir_listing.description')}}
                   </p>
                   <div class="flex">
                     <FormSwitch v-model="enableDirList" on>
