@@ -1,8 +1,8 @@
 <script lang="ts" setup>
 import { capitalize } from '~/utils/str'
 
-// Sample API
-// https://mockend.com/NilsDannemann/sample-json/sessions?limit=8
+// sample API
+const { data: sessions } = await useFetch('http://localhost:3004/sessions')
 
 // composable
 const { t } = useLang()
@@ -29,18 +29,16 @@ useHead(() => ({
     </PageHeader>
     <PageBody>
       <PageSection>
-
         <div class="grid lg:grid-cols-4 md:grid-cols-3 sm:grid-cols-1 gap-6">
-          <div v-for="i in 4" :key="i">
+          <div v-for="session in sessions">
             <Card>
-              <Card-Title>Beginner Sessions</Card-Title>
-              <Card-Image><img src="~/assets/images/placeholder-1440x650.jpg"></Card-Image>
-              <Card-Content>Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, sadipscing elitr, sed eirmod amet.</Card-Content>
-              <Card-Footer>Footer Options</Card-Footer>
+              <Card-Title :text="session.title" />
+              <Card-Image :src="session.image" />
+              <Card-Content :text="session.description" />
+              <Card-Footer>ID: {{ session.id }}</Card-Footer>
             </Card>
           </div>
         </div>
-
       </PageSection>
     </PageBody>
   </PageWrapper>

@@ -1,0 +1,66 @@
+{
+  "sessions": [
+      {
+          "id": 1,
+          "title": "Beginner 1",
+          "image": "https://future-leadership.de/wp-content/uploads/placeholder-1440x650-1.jpg",
+          "description": "Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet."
+      },
+      {
+          "id": 2,
+          "title": "Beginner 2",
+          "image": "https://future-leadership.de/wp-content/uploads/placeholder-1440x650-1.jpg",
+          "description": "Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet."
+      },
+      {
+          "id": 3,
+          "title": "Beginner 3",
+          "image": "https://future-leadership.de/wp-content/uploads/placeholder-1440x650-1.jpg",
+          "description": "Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet."
+      },
+      {
+          "id": 4,
+          "title": "Beginner 4",
+          "image": "https://future-leadership.de/wp-content/uploads/placeholder-1440x650-1.jpg",
+          "description": "Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet."
+      },
+      {
+          "id": 5,
+          "title": "Beginner 5",
+          "image": "https://future-leadership.de/wp-content/uploads/placeholder-1440x650-1.jpg",
+          "description": "Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet."
+      },
+      {
+          "id": 6,
+          "title": "Beginner 6",
+          "image": "https://future-leadership.de/wp-content/uploads/placeholder-1440x650-1.jpg",
+          "description": "Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet."
+      },
+      {
+          "id": 7,
+          "title": "Beginner 7",
+          "image": "https://future-leadership.de/wp-content/uploads/placeholder-1440x650-1.jpg",
+          "description": "Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet."
+      },
+      {
+          "id": 8,
+          "title": "Beginner 8",
+          "image": "https://future-leadership.de/wp-content/uploads/placeholder-1440x650-1.jpg",
+          "description": "Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet."
+      }
+  ],
+  "level": [
+      {
+          "id": 1,
+          "title": "Beginner"
+      },
+      {
+          "id": 2,
+          "title": "Intermediate"
+      },
+      {
+          "id": 3,
+          "title": "Advanced"
+      }
+  ]
+}

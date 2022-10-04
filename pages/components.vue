@@ -31,10 +31,10 @@ useHead(() => ({
         <div class="grid lg:grid-cols-4 md:grid-cols-3 sm:grid-cols-1 gap-6 pb-6">
           <div v-for="i in 4" :key="i">
             <Card>
-              <Card-Title>Beginner Sessions</Card-Title>
-              <Card-Image><img src="~/assets/images/placeholder-1440x650.jpg"></Card-Image>
-              <Card-Content>Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, sadipscing elitr, sed eirmod amet.</Card-Content>
-              <Card-Footer>Footer Options</Card-Footer>
+              <Card-Title text="Session Title" />
+              <Card-Image src="https://future-leadership.de/wp-content/uploads/placeholder-1440x650-1.jpg" />
+              <Card-Content text="Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, sadipscing elitr, sed eirmod amet." />
+              <Card-Footer>Footer</Card-Footer>
             </Card>
           </div>
         </div>
