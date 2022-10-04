@@ -15,9 +15,13 @@ onMounted(async () => {
 
 <template>
   <PageWrapper>
-      <p>Route params: {{ route.params }}</p>
-      <p>Route session: {{ route.params.session }}</p>
-      <p class="font-extrabold">Session title: {{ session.title }}</p>
-      <p>Description: {{ session.description }}</p>
+    <PageBody>
+      <PageSection>
+        <p>Route params: {{ route.params }}</p>
+        <p>Route session: {{ route.params.session }}</p>
+        <p class="font-extrabold">Session title: {{ session.title }}</p>
+        <p>Description: {{ session.description }}</p>
+      </PageSection>
+    </PageBody>
   </PageWrapper>
 </template>
