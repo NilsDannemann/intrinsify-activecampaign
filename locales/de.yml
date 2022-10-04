@@ -31,7 +31,11 @@ pages:
   about:
     nav: Über uns
     title: über uns
-    description: dies sind ihre sessions
+    description: dies ist unsere about seite
+  sessions:
+    nav: sessions
+    title: sessions
+    description: dies sind deine sessions
   setting:
     nav: einstellungen
     title: einstellungen

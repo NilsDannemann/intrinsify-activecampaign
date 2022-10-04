@@ -31,7 +31,11 @@ pages:
   about:
     nav: aboute
     title: aboute
-    description: ce sont vos séances
+    description: ce sont vos aboute
+  sessions:
+    nav: séances
+    title: séances
+    description: ceci est une page de seances
   setting:
     nav: paramètre
     title: paramètre

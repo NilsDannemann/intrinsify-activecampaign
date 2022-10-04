@@ -29,6 +29,10 @@ pages:
     identity: identitas
     full_name: nama lengkap
   about:
+    nav: abouti
+    title: abouti
+    description: ini adalah abouti
+  sessions:
     nav: sesi
     title: sesi
     description: ini adalah sesi anda

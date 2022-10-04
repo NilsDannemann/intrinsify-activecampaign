@@ -12,6 +12,7 @@ const { t } = useLang()
 const app = useState<IApp>('app')
 const menus = computed((): IMenuItem[] => [
   { type: 'link', text: t('pages.about.nav'), route: { name: 'about' } },
+  { type: 'link', text: t('pages.sessions.nav'), route: { name: 'sessions' } },
   { type: 'link', text: t('pages.components.nav'), route: { name: 'components' } },
   { type: 'link', text: t('pages.test.nav'), route: { name: 'test' } },
   { type: 'link', text: t('pages.news.nav'), route: { name: 'news' } },

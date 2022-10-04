@@ -31,6 +31,10 @@ pages:
   about:
     nav: about us
     title: about
+    description: this is the about page
+  sessions:
+    nav: sessions
+    title: sessions
     description: these are your sessions
   setting:
     nav: setting
