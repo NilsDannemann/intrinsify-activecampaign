@@ -32,7 +32,6 @@
 
 <template>
   <PageWrapper>
-    {{session}}
     <PageHeader>
       <PageTitle :text="session.title" />
     </PageHeader>
