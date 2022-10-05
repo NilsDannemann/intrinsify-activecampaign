@@ -70,6 +70,9 @@ const menus = computed((): IMenuItem[] => [
         >
           <LanguageSwitcher />
           <ThemeSwitcher />
+          <Anchor class="hover:no-underline hover:text-slate-900 hover:dark:text-white text-lg flex self-center items-center" to="auth">
+            <IconIc:round-logout />
+          </Anchor>
         </div>
       </div>
     </template>
@@ -120,16 +123,9 @@ const menus = computed((): IMenuItem[] => [
             <LanguageSwitcher type="select-box" />
           </div>
         </ActionSheetBody>
-        <Button
-          type="secondary"
-          title="Website"
-          href="https://intrinsify.de"
-          target="blank"
-          size="sm"
-          class="border-white hover:border-gray-200"
-        >
-          <IconTabler:external-link />
-          <span class="ml-1">intrinsify.de</span>
+        <Button type="secondary" to="auth" size="sm" class="border-white hover:border-gray-200">
+          <IconIc:round-logout />
+          <span class="ml-1">Logout</span>
         </Button>
         <Button
           text="Close"
