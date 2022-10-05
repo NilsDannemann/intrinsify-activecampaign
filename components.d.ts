@@ -7,8 +7,6 @@ export {}
 
 declare module '@vue/runtime-core' {
   export interface GlobalComponents {
-    Icon: ic:baselineArrowRightAlt': typeof import('~icons/ic/baseline-arrow-right-alt')['default']
-    'Icon:ic:baselineArrowRightAlt': typeof import('~icons/ic/baseline-arrow-right-alt')['default']
     IconBi: exclamationCircleFill': typeof import('~icons/bi/exclamation-circle-fill')['default']
     'IconBi:exclamationCircleFill': typeof import('~icons/bi/exclamation-circle-fill')['default']
     IconClarity: timesLine': typeof import('~icons/clarity/times-line')['default']
@@ -16,9 +14,8 @@ declare module '@vue/runtime-core' {
     'IconClarity:timesLine': typeof import('~icons/clarity/times-line')['default']
     IconFaSolid: ellipsisV': typeof import('~icons/fa-solid/ellipsis-v')['default']
     'IconFaSolid:ellipsisV': typeof import('~icons/fa-solid/ellipsis-v')['default']
-    IconMdi: githubFace': typeof import('~icons/mdi/github-face')['default']
+    IconMdi: alertCircleCheck': typeof import('~icons/mdi/alert-circle-check')['default']
     'IconMdi:alertCircleCheck': typeof import('~icons/mdi/alert-circle-check')['default']
-    'IconMdi:githubFace': typeof import('~icons/mdi/github-face')['default']
     IconTabler: externalLink': typeof import('~icons/tabler/external-link')['default']
     'IconTabler:externalLink': typeof import('~icons/tabler/external-link')['default']
     IconUil: times': typeof import('~icons/uil/times')['default']
