@@ -60,15 +60,24 @@
   "level": [
       {
           "id": 1,
-          "title": "Beginner"
+          "slug": "beginner",
+          "title": "Beginner",
+          "image": "https://future-leadership.de/wp-content/uploads/placeholder-1440x650-1.jpg",
+          "description": "Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet."
       },
       {
           "id": 2,
-          "title": "Intermediate"
+          "slug": "intermediate",
+          "title": "Intermediate",
+          "image": "https://future-leadership.de/wp-content/uploads/placeholder-1440x650-1.jpg",
+          "description": "Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet."
       },
       {
           "id": 3,
-          "title": "Advanced"
+          "slug": "advanced",
+          "title": "Advanced",
+          "image": "https://future-leadership.de/wp-content/uploads/placeholder-1440x650-1.jpg",
+          "description": "Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet."
       }
   ]
 }

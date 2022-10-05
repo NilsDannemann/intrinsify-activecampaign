@@ -2,11 +2,18 @@
   // helpers
   import { capitalize } from '~/utils/str'
 
+  // composables
+  const { t } = useLang()
+  
   // router
   const route = useRoute()
 
   // data
   const { data: session } = await useFetch('http://localhost:3004/sessions/' + route.params.session)
+  // const session = ref({})
+  // onMounted(async () => {
+  //     session.value = await fetch('http://localhost:3004/sessions/' + route.params.session).then(response => response.json()).catch(error => console.error(error))
+  // })
 
   // layout
   definePageMeta({
@@ -21,19 +28,17 @@
       },
     ],
   }))
-  // const session = ref({})
-
-  // onMounted(async () => {
-  //     session.value = await fetch('http://localhost:3004/sessions/' + route.params.session).then(response => response.json()).catch(error => console.error(error))
-  // })
 </script>
 
 <template>
   <PageWrapper>
+    <PageHeader>
+      <PageTitle :text="session.title" />
+    </PageHeader>
     <PageBody>
       <PageSection>
         <p>Route params: {{ route.params }}</p>
-        <p class="font-extrabold">Session title: {{ session.title }}</p>
+        <hr class="my-5">
         <p>Description: {{ session.description }}</p>
       </PageSection>
     </PageBody>
