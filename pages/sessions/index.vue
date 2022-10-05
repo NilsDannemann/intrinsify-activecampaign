@@ -9,7 +9,7 @@
   const route = useRoute()
   
   // data
-  const { data: level } = await useFetch('http://localhost:3004/level')
+  const { data: level } = await useFetch('http://localhost:3004/level', { initialCache: false })
   // const level = ref({})
   // onMounted(async () => {
   //     level.value = await fetch('http://localhost:3004/level/').then(response => response.json()).catch(error => console.error(error))

@@ -9,7 +9,7 @@
   const route = useRoute()
   
   // data
-  const { data: sessions } = await useFetch('http://localhost:3004/sessions')
+  const { data: sessions } = await useFetch('http://localhost:3004/sessions', { initialCache: false })
   // const sessions = ref({})
   // onMounted(async () => {
   //     sessions.value = await fetch('http://localhost:3004/sessions/').then(response => response.json()).catch(error => console.error(error))

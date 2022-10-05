@@ -4,12 +4,12 @@
 
   // composables
   const { t } = useLang()
-  
+
   // router
   const route = useRoute()
 
   // data
-  const { data: session } = await useFetch('http://localhost:3004/sessions/' + route.params.session)
+  const { data: session } = await useFetch('http://localhost:3004/sessions/' + route.params.session, { initialCache: false })
   // const session = ref({})
   // onMounted(async () => {
   //     session.value = await fetch('http://localhost:3004/sessions/' + route.params.session).then(response => response.json()).catch(error => console.error(error))
@@ -32,6 +32,7 @@
 
 <template>
   <PageWrapper>
+    {{session}}
     <PageHeader>
       <PageTitle :text="session.title" />
     </PageHeader>
