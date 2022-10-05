@@ -1,13 +1,14 @@
 <script lang="ts" setup>
+  // helpers
   import { capitalize } from '~/utils/str'
   
-  // sample API
+  // data
   const { data: sessions } = await useFetch('http://localhost:3004/sessions')
   
-  // composable
+  // composables
   const { t } = useLang()
   
-  // compiler macro
+  // layout
   definePageMeta({
     layout: 'page',
   })
@@ -20,29 +21,29 @@
       },
     ],
   }))
-  </script>
+</script>
   
-  <template>
-    <PageWrapper>
-      <PageHeader>
-        <PageTitle :text="$t('pages.sessions.title')" />
-      </PageHeader>
-      <PageBody>
-        <PageSection>
-          <div class="grid lg:grid-cols-4 md:grid-cols-3 sm:grid-cols-1 gap-6">
-            <div v-for="session in sessions">
-              <Anchor :to="'sessions/beginner/' + session.id">
-                <Card>
-                  <Card-Title :text="session.title" />
-                  <Card-Image :src="session.image" />
-                  <Card-Content :text="session.description" />
-                  <Card-Footer>ID: {{ session.id }}</Card-Footer>
-                </Card>
-              </Anchor>
-            </div>
+<template>
+  <PageWrapper>
+    <PageHeader>
+      <PageTitle :text="$t('pages.sessions.title')" />
+    </PageHeader>
+    <PageBody>
+      <PageSection>
+        <div class="grid lg:grid-cols-4 md:grid-cols-3 sm:grid-cols-1 gap-6">
+          <div v-for="session in sessions">
+            <Anchor :to="'sessions/beginner/' + session.id">
+              <Card>
+                <Card-Title :text="session.title" />
+                <Card-Image :src="session.image" />
+                <Card-Content :text="session.description" />
+                <Card-Footer>ID: {{ session.id }}</Card-Footer>
+              </Card>
+            </Anchor>
           </div>
-        </PageSection>
-      </PageBody>
-    </PageWrapper>
-  </template>
+        </div>
+      </PageSection>
+    </PageBody>
+  </PageWrapper>
+</template>
   
