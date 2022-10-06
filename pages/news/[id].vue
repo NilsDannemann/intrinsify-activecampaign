@@ -9,7 +9,7 @@ definePageMeta({
     <ContentDoc>
       <template #default="{ doc }">
         <PageHeader>
-          <PageTitle :text="doc.title" />
+          <PageTitle :text="doc.date + ' - ' + doc.title" />
         </PageHeader>
         <PageBody>
           <PageSection>

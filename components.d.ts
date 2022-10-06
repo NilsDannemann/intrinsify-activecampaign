@@ -17,6 +17,7 @@ declare module '@vue/runtime-core' {
     IconFaSolid: ellipsisV': typeof import('~icons/fa-solid/ellipsis-v')['default']
     'IconFaSolid:ellipsisV': typeof import('~icons/fa-solid/ellipsis-v')['default']
     IconIc: roundLogout': typeof import('~icons/ic/round-logout')['default']
+    'IconIc:baselineContentCopy': typeof import('~icons/ic/baseline-content-copy')['default']
     'IconIc:roundLogout': typeof import('~icons/ic/round-logout')['default']
     IconMdi: githubFace': typeof import('~icons/mdi/github-face')['default']
     'IconMdi:alertCircleCheck': typeof import('~icons/mdi/alert-circle-check')['default']

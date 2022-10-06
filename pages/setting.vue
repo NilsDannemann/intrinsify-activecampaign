@@ -90,7 +90,7 @@ const validate = async () => {
             <HeadlessUiTab v-slot="{ selected }" as="template">
               <button
                 :class="[
-                  'md:w-full text-left px-3 py-1.5 rounded py-2.5 leading-5 transition-all hover:bg-gray-200 hover:text-slate-900 dark:hover:bg-white/[0.12] dark:hover:text-white',
+                  'md:w-full text-left px-3 py-1.5 rounded py-2.5 leading-5 transition-all hover:bg-gray-100 hover:text-slate-900 dark:hover:bg-white/[0.12] dark:hover:text-white',
                   selected
                     ? 'font-semibold'
                     : 'text-slate-800 dark:text-gray-400',
@@ -102,7 +102,7 @@ const validate = async () => {
             <HeadlessUiTab v-slot="{ selected }" as="template">
               <button
                 :class="[
-                  'md:w-full text-left px-3 py-1.5 rounded py-2.5 leading-5 transition-all hover:bg-gray-200 hover:text-slate-900 dark:hover:bg-white/[0.12] dark:hover:text-white',
+                  'md:w-full text-left px-3 py-1.5 rounded py-2.5 leading-5 transition-all hover:bg-gray-100 hover:text-slate-900 dark:hover:bg-white/[0.12] dark:hover:text-white',
                   selected
                     ? 'font-semibold'
                     : 'text-slate-800 dark:text-gray-400',
@@ -114,7 +114,7 @@ const validate = async () => {
             <HeadlessUiTab v-slot="{ selected }" as="template">
               <button
                 :class="[
-                  'md:w-full text-left px-3 py-1.5 rounded py-2.5 leading-5 transition-all hover:bg-gray-200 hover:text-slate-900 dark:hover:bg-white/[0.12] dark:hover:text-white',
+                  'md:w-full text-left px-3 py-1.5 rounded py-2.5 leading-5 transition-all hover:bg-gray-100 hover:text-slate-900 dark:hover:bg-white/[0.12] dark:hover:text-white',
                   selected
                     ? 'font-semibold'
                     : 'text-slate-800 dark:text-gray-400',
@@ -161,35 +161,6 @@ const validate = async () => {
                     :text="$t('pages.setting.sections.validate_username.footer_button')"
                     @click="validate"
                   />
-                </CardFooter>
-              </Card>
-              <Card class="mb-4">
-                <CardTitle
-                  class="capitalize"
-                  :text="$t('pages.setting.sections.bot_id.title')"
-                />
-                <CardContent>
-                  <p class="mb-2">
-                    {{ $t('pages.setting.sections.bot_id.description') }}
-                  </p>
-                  <div class="flex">
-                    <FormTextInput v-model="id" class="w-full md:w-1/3">
-                      <template #suffix>
-                        <Button
-                          type="opposite"
-                          class="flex space-x-1 border-none"
-                        >
-                          <icon-ic:baseline-content-copy />
-                          <span>{{ $t('others.copy') }}</span>
-                        </Button>
-                      </template>
-                    </FormTextInput>
-                  </div>
-                </CardContent>
-                <CardFooter class="justify-between">
-                  <p>
-                    {{ $t('pages.setting.sections.bot_id.footer') }}
-                  </p>
                 </CardFooter>
               </Card>
             </TabPanel>
