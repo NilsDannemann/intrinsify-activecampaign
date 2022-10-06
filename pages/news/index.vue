@@ -31,18 +31,15 @@ useHead(() => ({
             class="block hover:no-underline p-6 flex space-x-6 rounded border border-gray-900/10 dark:border-gray-50/[0.2]"
           >
             <div class="w-30">
-              <div class="text-xl font-semibold text-slate-800 dark:text-gray-50">{{ article.date }}</div>
-              <Anchor
-                class="text-sm flex items-center space-x-1"
-                :href="`https://www.github.com/${article.author}`"
-              >
+              <div class="text-lg mb-1 font-semibold text-slate-800 dark:text-gray-50">{{ article.date }}</div>
+              <div class="text-sm flex items-center space-x-1">
                 <img
-                  class="w-5 h-5 rounded-full"
+                  class="w-4 h-4 rounded-full"
                   src="~/assets/images/avatar-mark.jpeg"
                   :alt="article.author"
                 />
                 <span>{{ article.author }}</span>
-              </Anchor>
+              </div>
             </div>
             <div class="flex flex-col">
               <Anchor
