@@ -35,7 +35,7 @@ useHead(() => ({
               <div class="flex items-center space-x-2">
                 <img
                   class="w-6 h-6 rounded-full"
-                  :src="'public/assets/images/avatar-' + article.author + '.jpeg'"
+                  :src="'/public/assets/images/avatar-' + article.author + '.jpeg'"
                   :alt="article.author"
                 />
                 <span class="text-slate-700">{{ article.author }}</span>
