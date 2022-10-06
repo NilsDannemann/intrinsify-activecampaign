@@ -144,17 +144,13 @@ const validate = async () => {
                   </div>
                 </CardContent>
                 <CardFooter
-                  class="flex flex-col space-y-2 md:space-y md:flex-row items-center md:justify-between"
+                  class="flex flex-col md:flex-row items-center md:justify-between"
                 >
                   <p>
                     {{ $t('pages.setting.sections.validate_username.footer') }}
                     <Anchor
-                      class="underline font-bold capitalize"
-                      :text="
-                        $t(
-                          'pages.setting.sections.validate_username.footer_link'
-                        )
-                      "
+                      class="underline capitalize"
+                      :text="$t('pages.setting.sections.validate_username.footer_link')"
                       href="https://docs.github.com/en/rest/users/users#get-a-user"
                     />
                   </p>
@@ -162,11 +158,7 @@ const validate = async () => {
                     class="capitalize"
                     size="sm"
                     type="opposite"
-                    :text="
-                      $t(
-                        'pages.setting.sections.validate_username.footer_button'
-                      )
-                    "
+                    :text="$t('pages.setting.sections.validate_username.footer_button')"
                     @click="validate"
                   />
                 </CardFooter>
