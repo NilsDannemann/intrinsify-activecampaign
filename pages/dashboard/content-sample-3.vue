@@ -7,7 +7,7 @@ definePageMeta({
 <template>
   <PageWrapper>
     <PageHeader>
-      <PageTitle :text="$t('pages.dashboard.index.title')" />
+      <PageTitle text="Content-Sample-3" />
     </PageHeader>
     <PageBody>
       <PageSection>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia autem debitis ab dolorum tempore placeat possimus perferendis porro sit aut nobis quasi hic consequuntur, atque impedit nihil totam illo odit?</PageSection>
