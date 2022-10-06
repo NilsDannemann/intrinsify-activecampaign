@@ -145,10 +145,10 @@ const toggleOptions = (show?: boolean) => {
   width: 155px;
   background-repeat: no-repeat;
   background-position: center center;
-  background-image: url('~/assets/images/logo.svg');
+  background-image: url('~/public/assets/images/logo.svg');
 }
 html.dark .app-logo {
-  background-image: url('~/assets/images/logo-light.svg');
+  background-image: url('~/public/assets/images/logo-light.svg');
 }
 .slide-fade-from-up-enter-active {
   transition: all 0.3s ease-out;
