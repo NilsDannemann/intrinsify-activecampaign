@@ -16,7 +16,7 @@
         >
           <LanguageSwitcher />
           <ThemeSwitcher />
-          <Anchor class="hover:no-underline hover:text-slate-900 hover:dark:text-white text-lg flex self-center items-center" to="auth">
+          <Anchor to="/auth" class="hover:no-underline hover:text-slate-900 hover:dark:text-white text-lg flex self-center items-center">
             <IconIc:round-logout />
           </Anchor>
         </div>

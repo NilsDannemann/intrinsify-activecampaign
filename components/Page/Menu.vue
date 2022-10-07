@@ -123,7 +123,7 @@ const menus = computed((): IMenuItem[] => [
             <LanguageSwitcher type="select-box" />
           </div>
         </ActionSheetBody>
-        <Button type="secondary" to="auth" size="sm" class="border-white hover:border-gray-200">
+        <Button type="secondary" to="/auth" size="sm" class="border-white hover:border-gray-200">
           <IconIc:round-logout />
           <span class="ml-1">Logout</span>
         </Button>
