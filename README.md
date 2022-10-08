@@ -15,4 +15,4 @@
 
 # Start Sample DB (json)
 - Install json-server "npm install -g json-server"
-- Run "json-server sample-db.json --port 3004"
+- Run "json-server api/sample-db.json --port 3004"
