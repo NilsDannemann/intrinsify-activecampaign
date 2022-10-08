@@ -68,8 +68,8 @@ pages:
           si aucun fichier d'index n'est présent dans un répertoire, le contenu
           du répertoire sera affiché.
   dashboard:
-    nav: tableau de bord
-    title: tableau de bord
+    nav: learn-modulé
+    title: learn-modulé
     index:
       nav: domicile
       title: domicile

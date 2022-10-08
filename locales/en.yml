@@ -62,8 +62,8 @@ pages:
         title: directory listing
         description: if no index file is present within a directory, the directory contents will be displayed.
   dashboard:
-    nav: dashboard
-    title: dashboard
+    nav: learn-mode
+    title: learn-mode
     index:
       nav: home
       title: home

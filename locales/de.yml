@@ -70,8 +70,8 @@ pages:
           wenn in einem verzeichnis keine indexdatei vorhanden ist, wird der
           inhalt des verzeichnisses angezeigt.
   dashboard:
-    nav: dashboard
-    title: dashboard
+    nav: lern-modus
+    title: lern-modus
     index:
       nav: home
       title: home
