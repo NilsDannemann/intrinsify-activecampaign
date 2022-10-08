@@ -67,7 +67,7 @@ const toggleOptions = (show?: boolean) => {
               @click="toggleDrawer()"
             >
               <span
-                class="flex items-center text-gray-600 dark:text-gray-300 text-lg"
+                class="flex items-center text-gray-600 dark:text-gray-300 text-xl"
                 aria-hidden="true"
               >
                 <IconUil:bars v-if="!showDrawer" />
@@ -100,11 +100,9 @@ const toggleOptions = (show?: boolean) => {
               aria-label="Toggle Options Menu"
               @click="toggleOptions()"
             >
-              <span
-                class="flex items-center text-gray-600 dark:text-gray-300 text-sm"
-                aria-hidden="true"
-              >
-                <icon-fa-solid:ellipsis-v />
+              <span class="flex items-center text-gray-600 dark:text-gray-300 text-xl" aria-hidden="true">
+                <IconUil:bars v-if="!showOptions" />
+                <IconUil:times v-else />
               </span>
             </button>
           </div>

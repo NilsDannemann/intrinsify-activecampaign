@@ -15,7 +15,7 @@ export function AppSetup() {
     name: 'intrinsify Akademie',
     author: {
       name: 'intrinsify',
-      link: 'https://intrinsify.de',
+      link: 'https://future-leadership.de',
     },
   }
   useState('app', () => app)

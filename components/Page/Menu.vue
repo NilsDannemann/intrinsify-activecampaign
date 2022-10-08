@@ -34,7 +34,7 @@ const menus = computed((): IMenuItem[] => [
         <Anchor
           class="underline font-medium"
           :text="$t('others.learn_more')"
-          href="https://intrinsify.de"
+          href="https://future-leadership.de"
         />
       </div>
     </template>
