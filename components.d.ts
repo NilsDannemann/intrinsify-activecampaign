@@ -19,6 +19,8 @@ declare module '@vue/runtime-core' {
     IconMdi: alertCircleCheck': typeof import('~icons/mdi/alert-circle-check')['default']
     'IconMdi:alertCircleCheck': typeof import('~icons/mdi/alert-circle-check')['default']
     IconUil: times': typeof import('~icons/uil/times')['default']
+    'IconUil:angleDown': typeof import('~icons/uil/angle-down')['default']
+    'IconUil:apps': typeof import('~icons/uil/apps')['default']
     'IconUil:bars': typeof import('~icons/uil/bars')['default']
     'IconUil:clock': typeof import('~icons/uil/clock')['default']
     'IconUil:laptop': typeof import('~icons/uil/laptop')['default']
