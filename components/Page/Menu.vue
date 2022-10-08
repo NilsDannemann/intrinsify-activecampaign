@@ -22,7 +22,7 @@ const menus = computed((): IMenuItem[] => [
 </script>
 
 <template>
-  <BuilderNavbar>
+  <ActionSheetNavbar>
 
     <template #banner>
       <div
@@ -137,5 +137,5 @@ const menus = computed((): IMenuItem[] => [
       </ActionSheet>
     </template>
 
-  </BuilderNavbar>
+  </ActionSheetNavbar>
 </template>

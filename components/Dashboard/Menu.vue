@@ -1,5 +1,5 @@
 <template>
-  <BuilderNavbar>
+  <ActionSheetNavbar>
     <template #menu>
       <div class="relative hidden lg:flex items-center ml-auto">
         <div class="flex space-x-4 border-l ml-6 pl-6 border-gray-900/10 dark:border-gray-50/[0.2]">
@@ -44,5 +44,5 @@
     <template #drawer>
       <slot name="drawer" />
     </template>
-  </BuilderNavbar>
+  </ActionSheetNavbar>
 </template>

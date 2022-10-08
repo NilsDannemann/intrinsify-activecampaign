@@ -12,8 +12,6 @@ declare module '@vue/runtime-core' {
     IconClarity: timesLine': typeof import('~icons/clarity/times-line')['default']
     'IconClarity:timesCircleSolid': typeof import('~icons/clarity/times-circle-solid')['default']
     'IconClarity:timesLine': typeof import('~icons/clarity/times-line')['default']
-    IconFaSolid: ellipsisV': typeof import('~icons/fa-solid/ellipsis-v')['default']
-    'IconFaSolid:ellipsisV': typeof import('~icons/fa-solid/ellipsis-v')['default']
     IconIc: roundLogout': typeof import('~icons/ic/round-logout')['default']
     'IconIc:roundLogout': typeof import('~icons/ic/round-logout')['default']
     IconMdi: alertCircleCheck': typeof import('~icons/mdi/alert-circle-check')['default']
