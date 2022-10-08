@@ -1,5 +1,5 @@
 ---
-title: 'Akademie-Update: Oktober'
+title: 'Akademie-Updates im Oktober'
 description: 'Lorem ipsum dolor sit amet, sadipscing elitr, sed eirmod amet.'
 date: '29.10.2022'
 author: 'elisabeth'

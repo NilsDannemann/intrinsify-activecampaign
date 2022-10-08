@@ -9,11 +9,10 @@
 - Eslint & Prettier
 
 # Start Project
-Start with yarn as package manager
 - Install dependencies "yarn install"
 - Run "yarn dev" to start development server
 - Open http://localhost:3000
 
 # Start Sample DB (json)
-- Install "npm install -g json-server"
+- Install json-server "npm install -g json-server"
 - Run "json-server sample-db.json --port 3004"
