@@ -88,7 +88,7 @@ export default defineNuxtConfig({
     vueI18n: {
       locale: 'en',
       fallbackLocale: 'en',
-      availableLocales: ['en', 'id'],
+      availableLocales: ['en', 'de'],
     },
   },
 

@@ -91,7 +91,7 @@ export default defineConfig({
     'dark-img': 'hidden dark:block',
   },
   plugins: [
-    // filters plugin require for navbar blur
+    // plugin for navbar blur
     FiltersPlugin as Plugin,
     TypographyPlugin as Plugin,
     AspectRatioPlugin as Plugin,
